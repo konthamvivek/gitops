@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld-2
+spec:
+  template:
+    spec:
+      containers:
+        - name: helloworld-2
+          image: helloworld2:uat
